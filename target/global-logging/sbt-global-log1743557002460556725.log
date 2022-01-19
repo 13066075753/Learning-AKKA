@@ -1,0 +1,66 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.3 (Oracle Corporation Java 1.8.0_281)
+[debug] Load.defaultLoad until apply took 729.1665ms
+[debug]           Load.loadUnit: plugins took 75.615208ms
+[debug]           Load.loadUnit: defsScala took 0.271667ms
+[debug] [Loading] Scanning directory /Users/edy/IdeaProjects/AKKA/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/edy/IdeaProjects/AKKA/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.131375 ms
+[debug]               Load.resolveProject(akka-build) took 43.935416ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id akka-build, base: /Users/edy/IdeaProjects/AKKA/project, plugins: List(<none>))) took 93.030625ms
+[debug] [Loading] Done in /Users/edy/IdeaProjects/AKKA/project, returning: (akka-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 224.268458ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.473333ms
+[debug]         Load.loadUnit(file:/Users/edy/IdeaProjects/AKKA/project/, ...) took 306.166917ms
+[debug]       Load.apply: load took 629.50575ms
+[debug]       Load.apply: resolveProjects took 5.135ms
+[debug]       Load.apply: finalTransforms took 102.804916ms
+[debug]       Load.apply: config.delegates took 7.404416ms
+[debug]       Load.apply: Def.make(settings)... took 1107.61725ms
+[debug]       Load.apply: structureIndex took 286.71275ms
+[debug]       Load.apply: mkStreams took 1.450917ms
+[info] loading project definition from /Users/edy/IdeaProjects/AKKA/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3387.643667ms
+[debug]     Load.loadUnit: defsScala took 0.003375ms
+[debug] [Loading] Scanning directory /Users/edy/IdeaProjects/AKKA
+[debug]       Load.loadUnit: mkEval took 16.22875ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/edy/IdeaProjects/AKKA, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 7.784084 ms
+[info] loading settings for project akka from build.sbt ...
+[debug]         Load.resolveProject(akka) took 9.367667ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id akka, base: /Users/edy/IdeaProjects/AKKA, plugins: List(<none>))) took 20.542334ms
+[debug] [Loading] Done in /Users/edy/IdeaProjects/AKKA, returning: (akka)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3572.855542ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.568625ms
+[debug]   Load.loadUnit(file:/Users/edy/IdeaProjects/AKKA/, ...) took 6970.735625ms
+[debug] Load.apply: load took 6991.080792ms
+[debug] Load.apply: resolveProjects took 0.341209ms
+[debug] Load.apply: finalTransforms took 22.417208ms
+[debug] Load.apply: config.delegates took 0.925667ms
+[debug] Load.apply: Def.make(settings)... took 448.344417ms
+[debug] Load.apply: structureIndex took 78.289167ms
+[debug] Load.apply: mkStreams took 0.003709ms
+[info] set current project to AKKA (in build file:/Users/edy/IdeaProjects/AKKA/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/edy/.sbt/1.0/server/27f0425a554af6e97d78/sock
+[info] started sbt server
